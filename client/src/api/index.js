@@ -1,8 +1,8 @@
 import axios from "axios";
 
-// https://stackoverflow-clone-aaryan.onrender.com/"
+
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://stack-overflow-protyush-main.onrender.com",
 });
 
 API.interceptors.request.use((req) => {
